@@ -9,7 +9,7 @@ state={
 		add_core_of = MOB
 		victory_points = { 13281 3 }
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 		}
 	}
 	manpower=500000

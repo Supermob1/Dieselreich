@@ -175,4 +175,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+13282;13287;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13269;13287;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13282;13289;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13240;13251;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13252;13251;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13271;13273;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13271;13263;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13262;13263;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13246;13263;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13263;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13247;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13241;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13260;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13273;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13246;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13272;13259;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13272;13260;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
+13272;13275;impassable;-1;-1;-1;-1;-1;;MOBIUS mountains
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -4,6 +4,14 @@ state={
 	provinces={
 		13244 13246 13252 13262 
 	}
-	manpower=0
+	history = {
+		owner = MOB
+		add_core_of = MOB
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	manpower=100000
 	buildings_max_level_factor=1.000
+	state_category = wasteland
 }

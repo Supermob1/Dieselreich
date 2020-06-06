@@ -4,6 +4,18 @@ state={
 	provinces={
 		13257 13264 13268 13277 
 	}
-	manpower=0
+	history = {
+		owner = MOB
+		add_core_of = MOB
+		victory_points = { 13268 5 }
+		buildings = {
+			infrastructure = 8
+			13268 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
+	state_category = metropolis
 }

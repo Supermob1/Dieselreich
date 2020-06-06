@@ -4,6 +4,15 @@ state={
 	provinces={
 		13279 13285 13290 
 	}
-	manpower=0
+	history = {
+		owner = MOB
+		add_core_of = MOB
+		victory_points = { 13279 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=50000
 	buildings_max_level_factor=1.000
+	state_category = pastoral
 }

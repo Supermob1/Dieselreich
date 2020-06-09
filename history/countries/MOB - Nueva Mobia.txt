@@ -1,6 +1,6 @@
 ﻿capital = 797
 
-oob = "MOB_1936"
+#oob = "MOB_1936"
 
 set_research_slots = 1
 set_stability = 0.1

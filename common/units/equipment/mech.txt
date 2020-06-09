@@ -1,0 +1,42 @@
+equipments = {
+    mech_basic_equipment = {
+        year = 1936        # Limits the equipment from appearing before the specified year. Optional
+        picture = archetype_light_tank_equipment   # GFX reference used to define equipment picture in land-lease
+        
+        is_archetype = yes  # Specifies an entry as an archetype entry. All non-archetype entries inherit 
+        is_buildable = no   # Prevents this equipment from being built.
+        active = yes        # Determines if this equipment is available without unlocking from a technology.
+        
+        type = armor       # Internal type: what kind of unit can use this equipment
+
+        group_by = archetype            # How the equipment is grouped in the production screen
+        interface_category = interface_category_armor    # Which category the equipment appears in the production screen
+        
+        # Resources used to build this equipment
+        resources = {
+            steel = 1
+        }
+        
+        # Modifiers the equipment uses
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 26
+		hardness = 0.8
+		armor_value = 10
+
+		#Offensive Abilities
+		soft_attack = 13
+		hard_attack = 4
+		ap_attack = 10
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 8
+    }
+}

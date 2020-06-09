@@ -1,0 +1,28 @@
+technologies = {
+
+    light_mech = {
+        
+
+        enable_equipments = {
+            mech_basic_equipment
+        }
+        
+        
+        research_cost = 2
+        start_year = 1936
+        
+        folder = {
+            name = mech_folder
+            position = { x = 1 y = 5 }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+        
+        categories = {
+            mech_tech
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+
+
+technology_categories = {
+	mech_tech
+}
+
+
+technology_folders = {
+	mech_folder = {	
+		ledger = army
+		available = {
+			tag = MOB
+		}
+	}
+}

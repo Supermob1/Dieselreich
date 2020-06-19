@@ -75,7 +75,6 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 if = {
 	limit = {
@@ -95,13 +94,25 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+create_country_leader = {
+	name = "Governor Lucius Manilius Cilius"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
 set_popularities = {
-	democratic = 64
-	fascism = 1
-	neutrality = 15
-	communism = 20
+	democratic = 15
+	fascism = 16
+	neutrality = 64
+	communism = 5
 }
 
 add_ideas = {
-	limited_conscription
+	roman_decadence
+	legionary_system
+	roman_roads
 }

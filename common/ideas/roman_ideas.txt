@@ -1,0 +1,38 @@
+ideas = {
+    country = {
+        roman_decadence ={
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+
+            picture = generic_disjointed_gov
+		}
+		
+		roman_roads = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.3
+				army_core_attack_factor = 0.2,
+				army_speed_factor = 0.1
+				stability_factor = 0.2
+			}
+		}
+    }
+}

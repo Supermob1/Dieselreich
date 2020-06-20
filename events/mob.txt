@@ -6,7 +6,6 @@ country_event = {
 	title = mob.1.title
 	desc = mob.1.desc
 	picture = GFX_report_event_sweden_tank
-	is_triggered_only = no
 	mean_time_to_happen = { days = 2 }
 	trigger = {
 		has_variable= legion_loyalty
@@ -24,9 +23,28 @@ country_event = {
 				add_idea = legion_loyalty_good 
 			}
 	}
-	option = {
-		name = mob.1.b
+}	
+country_event = {	
+	id = mob.2	
+	title = mob.2.title	
+	desc = mob.2.desc	
+	picture = GFX_report_event_sweden_tank	
+	mean_time_to_happen = { days = 2 }	
+	trigger = {	
+		has_variable= legion_loyalty	
+		check_variable = {	
+			var = legion_loyalty	
+			value = 0	
+			compare = equals	
+		}	
+	}	
+	option = {	
+		name = mob.2.a	
 		ai_chance = { factor = 1}
-		add_political_power= 50
+		swap_ideas= {
+				remove_idea = legion_loyalty_good
+				add_idea = legion_loyalty
+			}
 	}
+
 }

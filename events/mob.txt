@@ -1,0 +1,32 @@
+add_namespace = mob
+
+##Event: legion loyalty increases
+country_event = {
+	id = mob.1
+	title = mob.1.title
+	desc = mob.1.desc
+	picture = GFX_report_event_sweden_tank
+	is_triggered_only = no
+	mean_time_to_happen = { days = 2 }
+	trigger = {
+		has_variable= legion_loyalty
+		check_variable = {
+			var = legion_loyalty
+			value = 10
+			compare = greater_than_or_equals
+		}
+	}
+	option = {
+		name = mob.1.a
+		ai_chance = { factor = 1}
+		swap_ideas= {
+				remove_idea = legion_loyalty
+				add_idea = legion_loyalty_good 
+			}
+	}
+	option = {
+		name = mob.1.b
+		ai_chance = { factor = 1}
+		add_political_power= 50
+	}
+}

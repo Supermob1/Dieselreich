@@ -1,0 +1,3 @@
+roman_legions = {
+	icon = generic_prospect_for_resources
+}
